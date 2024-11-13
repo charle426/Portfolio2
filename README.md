@@ -1,2 +1,3 @@
 # Portfolio2
-portfoloi update
+My portfolio update with shadcn ui
+Akasintech
