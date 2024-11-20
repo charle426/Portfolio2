@@ -5,7 +5,7 @@ import {motion} from "framer-motion"
 import { FaAngleRight } from "react-icons/fa";
 
 export default function About(){
-  const MotionImage = motion(Image)
+  const MotionImage = motion.create(Image)
     function calculateAge(birthdate: string): number {
         const birth = new Date(birthdate);
         const today = new Date();

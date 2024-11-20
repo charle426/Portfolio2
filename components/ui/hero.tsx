@@ -4,7 +4,7 @@ import img from "../public/church_me_cropped.jpg";
 import TypingAnimation from "./typed";
 import {motion} from "framer-motion"
 export default function Hero() {
-  const MotionImage = motion(Image)
+  const MotionImage = motion.create(Image)
   return (
     <section id="hero" className="">
       <div className="flex justify-center md:gap-20 min-h-[100vh] gap-8 md:flex-row-reverse flex-col-reverse items-center relative">
