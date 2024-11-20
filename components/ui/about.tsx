@@ -1,5 +1,5 @@
 "use client"
-import aboutme from "@/components/public/IMG_4989.JPG"
+import aboutme from "../public/me.jpg"
 import Image from "next/image";
 import {motion} from "framer-motion"
 import { FaAngleRight } from "react-icons/fa";
