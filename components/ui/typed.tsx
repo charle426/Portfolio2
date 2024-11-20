@@ -7,7 +7,7 @@ const TypingAnimation: React.FC<Props> = (props) => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["I'm a developer.", "Welcome to my portfolio!"],
+      strings: ["I'm a developer.", "I'm a digital marketer", "Welcome to my portfolio!"],
       typeSpeed: 50,    // Typing speed in milliseconds
       backSpeed: 30,    // Erase speed in milliseconds
       loop: true,       // Loop the typing animation

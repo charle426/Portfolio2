@@ -3,6 +3,7 @@ import Image from "next/image";
 import frontendCert from "../public/frontend-cert.png"
 import fullstack from "../public/fullstack.png"
 import codathon from "../public/codathon.png"
+import digital from "../public/Screenshot 2024-11-20 at 17-48-38 Fundamentals of digital marketing Google.png"
 export default function Certs(){
     return(
         <section id="certs my-40 ">
@@ -72,6 +73,19 @@ export default function Certs(){
                 The Webdeves 3hrs long coding competition
               </p>
               <p className="text-[13px] my-2">Held on 21th November 2023</p>
+            </div>
+          </div>
+                </CarouselItem>
+                <CarouselItem>
+                <div className="flex flex-col gap-3">
+            <div>
+              <Image src={digital} className="w-full rounded-md max-w-[20em]" alt="webdeves certificate participation in the 2023 codathon" />
+            </div>
+            <div>
+              <p>
+                I adding digital marketing to my set of skill to further improve how I can be of better service to you so I can make websites for you that would rank in google and would take you and your business to the next level 
+              </p>
+              <p className="text-[13px] my-2">Acquired on November 18, 2024</p>
             </div>
           </div>
                 </CarouselItem>
